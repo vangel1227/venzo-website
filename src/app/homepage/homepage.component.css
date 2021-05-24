@@ -1,0 +1,31 @@
+
+.carousel-inner img{
+    max-height: 700px;
+    min-height: 300px;
+    }
+    
+    /* Bootstrap card viewport dependent sizing */
+    @media screen and (max-width: 500px) {
+        .card{
+            width: 20rem;
+        }
+    }
+    
+    @media screen and (min-width: 501px) {
+        .card{
+            width: 27rem;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .card{
+            width: 28rem;
+        }
+    }
+    
+    @media screen and (min-width: 1200px) {
+        .card{
+            width: 35rem;
+        }
+    }
+    
