@@ -10,6 +10,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 
+
 const appRoutes: Routes = [
   { path: '', component: HomepageComponent },
   { path: 'resume', component: ResumeComponent },
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
